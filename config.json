@@ -1,13 +1,20 @@
 {
   "server": {
-    "http_port": ":8083",
+    "http_port": ":8888",
     "ice_servers": ["stun:stun.l.google.com:19302"]
   },
   "streams": {
-    "H264_AAC": {
-      "on_demand": false,
-      "disable_audio": true,
-      "url": "rtsp://admin:admin@176.117.205.3:5541/video1"
+    "camera-1": {
+      "on_demand": true,
+      "url": "rtsp://192.168.10.56:554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif"
+    },
+    "camera-2": {
+      "on_demand": true,
+      "url": "rtsp://192.168.20.53/media/video1"
+    },
+    "camera-3": {
+      "on_demand": true,
+      "url": "rtsp://admin:vee22cam@192.168.20.57:554/cam/realmonitor?channel=1&subtype=1"
     }
   }
 }
