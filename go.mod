@@ -1,6 +1,6 @@
 module webRTC
 
-go 1.21.4
+go 1.18
 
 require (
 	github.com/deepch/vdk v0.0.21
