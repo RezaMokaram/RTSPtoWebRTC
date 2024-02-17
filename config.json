@@ -14,7 +14,7 @@
     },
     "camera-3": {
       "on_demand": true,
-      "url": "rtsp://admin:vee22cam@192.168.20.57:554/cam/realmonitor?channel=1&subtype=1"
+      "url": "rtsp://192.168.20.57:554/cam/realmonitor?channel=1&subtype=1"
     }
   }
 }
